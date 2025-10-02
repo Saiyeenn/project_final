@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/final1_project",    
-});
+  base: '/project_final/'   // ត្រូវដាក់ឈ្មោះ repository
+})
